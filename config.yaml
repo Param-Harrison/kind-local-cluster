@@ -1,0 +1,7 @@
+excludedApps: # list of apps that should not be installed when using install all
+  - nginx-app
+
+apps:
+  nginx-app:
+    method: kubectl
+    namespace: default
